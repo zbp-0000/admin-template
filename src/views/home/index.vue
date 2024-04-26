@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts" name="home">
 import { storeToRefs } from 'pinia';
 import { useUserStore } from '@/store/user'; //路径别名，引入store
 

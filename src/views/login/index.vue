@@ -7,8 +7,8 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { getList } from '@/apis/user';
+<script setup lang="ts" name="login">
+import { getList } from '@/apis/modules/user';
 import { reactive } from 'vue';
 import type { User } from '@/types/user';
 
