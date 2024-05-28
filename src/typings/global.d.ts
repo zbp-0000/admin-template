@@ -17,3 +17,8 @@ declare interface ViteEnv {
 interface ImportMetaEnv extends ViteEnv {
   __: unknown;
 }
+
+declare interface UserInfo {
+  name: string;
+  age: number;
+}

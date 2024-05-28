@@ -22,6 +22,6 @@
     "paths": { "@": ["src"], "@/*": ["src/*"], "#/*": ["types/*"] } //路径映射,配合别名使用
   },
   //需要检测的文件
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "vite.config.ts", "src/typings/**/*.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "vite.config.ts", "src/typings/*.d.ts"],
   "exclude": ["node_modules", "dist", "**/*.js"]
 }
